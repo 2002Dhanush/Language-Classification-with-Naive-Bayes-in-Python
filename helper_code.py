@@ -46,7 +46,7 @@ def plot_confusion_matrix(y_true, y_pred, classes,
                     color="white" if cm[i, j] > thresh else "black")
     fig.tight_layout()
     
-    plt.grid(b=None)
+    plt.grid(visible=None)
     
     # https://github.com/mwaskom/seaborn/issues/1773
     
